@@ -5,7 +5,7 @@ android {
     buildToolsVersion "26.0.0"
 
     lintOptions {
-        baseline file("lint-baseline.xml")
+//        baseline file("lint-baseline.xml")
         checkAllWarnings true
         warningsAsErrors true
         abortOnError true
